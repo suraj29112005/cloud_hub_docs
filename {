@@ -1,6 +1,3 @@
-import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { api, Incident } from '../services/api';
-import { ArrowLeft, ShieldCheck, Clock, Send, AlertTriangle } from 'lucide-react';
+import { describe, it, expect } from 'vitest';
 
-export const WarRoomPage: React.FC = (
+describe('Incident Hub Frontend Test Suite', (
